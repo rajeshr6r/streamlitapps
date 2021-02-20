@@ -7,3 +7,6 @@
   Items to complete:
   1. Add a Model Feedback to this setup
 
+  Screenshot:
+  [mnist](./screenshots/mnist.png)
+
