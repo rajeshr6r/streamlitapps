@@ -50,15 +50,15 @@ def define_model():
 # run the test harness for evaluating a model
 def run_test_harness():
 	# load dataset
-trainX, trainY, testX, testY = load_dataset()
-# prepare pixel data
-trainX, testX = prep_pixels(trainX, testX)
-# define model
-model = define_model()
-# fit model
-model.fit(trainX, trainY, epochs=10, batch_size=32, verbose=2)
-# save model    
-model.save('./models/final_model.h5')
+	trainX, trainY, testX, testY = load_dataset()
+	# prepare pixel data
+	trainX, testX = prep_pixels(trainX, testX)
+	# define model
+	model = define_model()
+	# fit model
+	model.fit(trainX, trainY, epochs=10, batch_size=32, verbose=2)
+	# save model    
+	model.save('./models/final_model.h5')
 
 # entry point, run the test harness
 run_test_harness()
