@@ -8,5 +8,5 @@
   1. Add a Model Feedback to this setup
 
   Screenshot:
-  [mnist](./screenshots/mnist.png)
+  ![mnist](./screenshots/mnist.png)
 
